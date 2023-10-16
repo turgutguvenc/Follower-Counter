@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Libre+Baskerville:ital@1&family=Roboto:ital,wght@0,400;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(151, 80, 218);
+    font-family: 'Libre Baskerville', serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #FFFFFF;
+}
+
+.counter {
+    font-size: 50px;
+}
+
+div i {
+    margin-bottom: 30px;
+}
+
+.social {
+    padding: 20px;
+}
+
+.container p {
+    display: block;
+    white-space: nowrap;
+    font-size: 40px;
+}
+
+
+@media (max-width: 600px) {
+    .container {
+    display: block;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+  }
